@@ -1,0 +1,78 @@
+body{
+    font-family: "Poppins", sans-serif;
+    }
+    html{
+        font-size: 10px;
+        font-weight: 400px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #section{
+        box-sizing: border-box;
+        width: 800px;
+        height: 600px;
+        background-image: linear-gradient(to bottom right,
+         rgba(12, 180, 68, 0.5) 50%, 
+         transparent 50%), url(./images/img2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        float: left;
+        
+    }
+    #section h3, p{
+        color: #fff;
+    }
+    #section .section{
+        padding: 70px 0px 0px 50px;
+    }
+    #sidebar{
+        float: right;
+        box-sizing: border-box;
+        padding: 0px;
+        margin-right: 300px;
+        margin-top: 250px;
+    }
+    #sidebar .lab2{
+        margin-top: 5px;
+        padding: 3px 0px 3px 0px;
+    }
+    #sidebar .lab{
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    #form .inp, .inp3{
+        padding: 3px 0px 3px 5px;
+    }
+    #form .inp{
+        padding-right: 40px;
+    }
+    #form .inp1, .inp2{
+        padding: 3px 0px 3px 5px;
+        background-color: darkgrey;
+    }
+    #form .inp3{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #form .inp1, .inp2, .inp3{
+        padding-right: 40px;
+    }
+    #form a{
+      text-decoration: none;  
+      margin: 3px;
+      display: block;
+    }
+    /* #form a:hover{
+        color: rgba(12, 11, 11, 0.014);
+    } */
+    .bouton{
+      border-style: ridge;
+      margin-top: 5px;
+      padding: 3px 45px 3px 45px;
+      border-radius: 10px 10px 10px 10px;
+      background-color: #7fcf7f;
+      box-shadow: 10px;
+    }
